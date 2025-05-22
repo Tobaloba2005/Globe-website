@@ -1,0 +1,136 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+}
+
+#hero-section{
+    background-image: url('/asset/hero-image.png');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+#gradient-color{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.742), 
+    rgba(0, 0, 0, 0.025));
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    color: white;
+    padding: 1.2rem 2rem;
+}
+
+.sub-search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sign-up{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.log-in{
+    color: white;
+    font-weight: 600;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.mid-section{
+    z-index: 2;
+    position: relative;
+    justify-content: space-between;
+    
+}
+
+#HelpingOthers{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+#live{
+    color: white;
+    width: 100%;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+#special{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookings{
+display: flex;
+align-items: 20px;
+gap: 20px;
+}
+
+.form-container{
+    position: relative;
+    z-index: 1;
+    bottom: 4rem;
+    left: 6rem;
+    background-color: white;
+    width: 70%;
+    border: 1px solid none;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0px 5px 10px;
+}
+
+.tab{
+    display: flex;
+    
+}
